@@ -1,5 +1,6 @@
 
 function disableAppjustoAdminTabsAutoDiscard() {
+  console.log('Appjusto extension called!');
   let queryOptions = { url: 'https://admin.appjusto.com.br/*'};
   chrome.tabs.query(queryOptions, function(tabs) {
     tabs.forEach(function(tab) {
@@ -10,7 +11,6 @@ function disableAppjustoAdminTabsAutoDiscard() {
 }  
 
 chrome.runtime.onInstalled.addListener(function(details) {
-  console.log('Appjusto extension called!');
   disableAppjustoAdminTabsAutoDiscard();
 });
 
