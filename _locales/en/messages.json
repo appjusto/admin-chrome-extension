@@ -1,0 +1,8 @@
+{
+  "manifest_name": {
+    "message": "Appjusto Admin"
+  },
+  "manifest_description": {
+    "message": "Extension to avoid auto discard in Appjusto admin tabs."
+  }
+}

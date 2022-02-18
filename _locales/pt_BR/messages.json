@@ -1,0 +1,8 @@
+{
+  "manifest_name": {
+    "message": "Appjusto Admin"
+  },
+  "manifest_description": {
+    "message": "Evita que o Chrome suspenda as abas abertas do Appjusto Admin."
+  }
+}

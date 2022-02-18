@@ -1,6 +1,6 @@
 {
-  "name": "Appjusto Admin",
-  "description": "Extension to avoid auto discard in Appjusto admin tabs",
+  "name": "__MSG_manifest_name__",
+  "description": "__MSG_manifest_description__",
   "version": "1.0",
   "icons": {
     "16":"icon.png",
@@ -8,6 +8,7 @@
     "128":"icon.png"
   },
   "action": {
+    "default_title": "__MSG_manifest_name__",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icon.png",
@@ -20,5 +21,6 @@
     "service_worker": "background.js"
   },
   "permissions": ["tabs", "webNavigation"],
+  "default_locale": "pt_BR",
   "manifest_version": 3
 }
